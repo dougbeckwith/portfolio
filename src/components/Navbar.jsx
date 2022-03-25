@@ -7,11 +7,10 @@ import {
   FaFacebook,
 } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
-
-  
   const [nav, setNav] = useState(false)
   const handleClick = () => {
     setNav(!nav)
@@ -24,18 +23,38 @@ const Navbar = () => {
       <div>
         {/*Main Nav Links*/}
         <ul className='hidden md:flex'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <Link to='home' smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to='about' smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to='skills' smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link to='projects' smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li>
+          <Link  to="contact" smooth={true} duration={500}>
+          Contact
+        </Link>
+          </li>
         </ul>
       </div>
 
       {/* Mobile Hamburger Icon */}
       <div onClick={handleClick} className='md:hidden z-10'>
         {/* Display Icon based on Mobile nav state */}
-        {!nav ? <FaBars size={30}/> : <FaTimes size={30}/>}
+        {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>
 
       {/* Mobile Nav Links */}
@@ -60,16 +79,16 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href=''
             >
-              Linkedin <FaLinkedin size={30}/>
+              Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          
+
           <li className='w-[150px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-85px] hover:ml-[0px] duration-300'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href=''
             >
-              Github <FaGithub size={30}/>
+              Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#6fc2b0] ml-[-95px] hover:ml-[0px] duration-300'>
@@ -77,7 +96,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href=''
             >
-              Mail <HiOutlineMail size={30}/>
+              Mail <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='w-[180px] h-[60px] flex justify-between items-center bg-[#565f59] ml-[-115px] hover:ml-[0px] duration-300'>
@@ -85,7 +104,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300'
               href=''
             >
-              Resume <BsFillPersonLinesFill size={30}/>
+              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
