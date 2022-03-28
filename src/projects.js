@@ -29,7 +29,7 @@ const Projects = [
     id: 3,
     image: img3,
     description: `This web app is a sign up form for a user attending an event. 
-      It uses form validation and updates the display based of user inputs`,
+      It uses form validation and updates the display based on user inputs.`,
     demo: false,
     demoLink: '',
     github: true,
@@ -40,7 +40,7 @@ const Projects = [
     image: img4,
     description: `This application takes an array of students and will only display up to 9 students 
     from the array on the page. Clicking on the navigation buttons triggers an event and 
-    will access different page of 9 students.`,
+    will access a different page of 9 students.`,
     demo: false,
     demoLink: '',
     github: true,

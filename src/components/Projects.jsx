@@ -51,7 +51,7 @@ const Work = () => {
             Projects
           </p>
           <p className='pt-4 pb-9'>
-            These are my personal projects ive completed
+            These are my personal projects i've completed
           </p>
         </div>
         <div className='flex flex-wrap'>{projectElements}</div>
