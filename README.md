@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 My Personal Portfolio Project
 
-## `Technologies Used`
+## Technologies Used
 
 ### `React`
 Open [React Home](https://reactjs.org/)
