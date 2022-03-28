@@ -1,20 +1,20 @@
 # Getting Started with Create React App
 My Personal Portfolio Project
 
-## Technologies Used
+## Technologies
 
-### `React`
-Open [React Home](https://reactjs.org/)
+### React
+Open [React](https://reactjs.org/)
 
-### `Tailwind`
-Open [Tailwind Home](https://tailwindcss.com/)
+### Tailwind
+Open [Tailwind](https://tailwindcss.com/)
 
-## `Library's Used`
+## Library's
 
-### `React Icons`
+### React Icons
 Open [React Icons](https://github.com/react-icons/react-icons#readme)
 
-### `React Scroll`
+### React Scroll
 Open [React Scroll](https://www.npmjs.com/package/react-scroll)
 
 
