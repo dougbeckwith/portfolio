@@ -16,7 +16,7 @@ const Work = () => {
         </div>
         <p className='py-4'>{project.description}</p>
         <div className='flex w-full'>
-          <a href={project.demoLink}>
+          <a rel='noreferrer' target='_blank' href={project.demoLink}>
             <button
               className={
                 project.demo
@@ -28,7 +28,7 @@ const Work = () => {
             </button>
           </a>
 
-          <a href={project.githubLink}>
+          <a rel='noreferrer' target='_blank' href={project.githubLink}>
             <button className='text-white border-2 px-6 py-3 hover:bg-pink-600 border-pink-600 duration-200'>
               GitHub
             </button>
