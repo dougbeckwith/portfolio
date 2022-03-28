@@ -2,6 +2,8 @@ import React from 'react'
 import projectsData from '../projects.js'
 import { useState } from 'react'
 
+
+
 const Work = () => {
   //Creates project JSX from projectsData file
   const [projects, setProjects] = useState(projectsData)
@@ -12,7 +14,7 @@ const Work = () => {
         className='max-w-[380px] mb-10 mr-10  bg-[#0a192f] flex items-center flex-col'
       >
         <div>
-          <img src={project.image.img1} alt='' />
+          <img className='w-[380px] h-[300px] rounded'src={project.image} alt='' />
         </div>
         <p className='py-4'>{project.description}</p>
         <div className='flex w-full'>

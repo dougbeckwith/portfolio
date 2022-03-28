@@ -12,8 +12,8 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
     </div>
   )
