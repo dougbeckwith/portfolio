@@ -1,5 +1,8 @@
 import img1 from './assets/project-one-img-one.png'
-import test from './assets/project-two-img-one.png'
+import test from './assets/project2.png'
+
+console.log(img1)
+console.log(test)
 
 const Projects = [
   {
@@ -15,7 +18,7 @@ const Projects = [
   },
   {
     id: 2,
-    image: { test },
+    image: { img1 },
     description: 'This web app uses Javascript HTML and CSS. I created a phrase guessing game.A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose).',
     demo: false,
     demoLink: '',
