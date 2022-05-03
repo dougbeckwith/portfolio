@@ -1,6 +1,6 @@
 import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
-import { Link } from 'react-scroll'
+import {HiArrowNarrowRight} from 'react-icons/hi'
+import {Link} from 'react-scroll'
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           I'm a full stack developer specializing in building digital
-          experiences. Currently i'm working on building responsive full stack
+          experiences. Currently I'm working on building responsive full stack
           web applications.
         </p>
         <div>

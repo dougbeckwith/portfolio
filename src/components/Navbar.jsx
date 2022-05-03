@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { Link } from 'react-scroll'
+import React, {useState} from 'react'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false)
@@ -58,8 +58,7 @@ const Navbar = () => {
           !isMobileMenu
             ? 'hidden'
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
-        }
-      >
+        }>
         <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
@@ -75,8 +74,7 @@ const Navbar = () => {
             onClick={handleClick}
             to='projects'
             smooth={true}
-            duration={500}
-          >
+            duration={500}>
             Projects
           </Link>
         </li>
@@ -99,8 +97,7 @@ const Navbar = () => {
             rel='noreferrer'
             target='_blank'
             className='flex justify-between items-center w-full text-gray-300'
-            href='https://www.linkedin.com/in/doug-beckwith-1284b9224/'
-          >
+            href='https://www.linkedin.com/in/doug-beckwith-1284b9224/'>
             <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
               Linkedin <FaLinkedin size={30} />
             </li>
@@ -109,8 +106,7 @@ const Navbar = () => {
             rel='noreferrer'
             target='_blank'
             className='flex justify-between items-center w-full text-gray-300'
-            href='https://github.com/dougbeckwith'
-          >
+            href='https://github.com/dougbeckwith'>
             <li className='w-[150px] h-[60px] flex justify-between items-center bg-[#333333] ml-[-85px] hover:ml-[0px] duration-300'>
               Github <FaGithub size={30} />
             </li>
@@ -119,8 +115,7 @@ const Navbar = () => {
             className='flex justify-between items-center w-full text-gray-300'
             to='contact'
             smooth={true}
-            duration={500}
-          >
+            duration={500}>
             <li className='w-[160px] h-[60px] flex justify-between items-center bg-[#6fc2b0] ml-[-95px] hover:ml-[0px] duration-300'>
               Mail <HiOutlineMail size={30} />
             </li>
@@ -129,8 +124,7 @@ const Navbar = () => {
             className='flex justify-between items-center w-full text-gray-300'
             to='home'
             smooth={true}
-            duration={500}
-          >
+            duration={500}>
             <li className='w-[180px] h-[60px] flex justify-between items-center bg-[#565f59] ml-[-115px] hover:ml-[0px] duration-300'>
               Resume <BsFillPersonLinesFill size={30} />
             </li>
