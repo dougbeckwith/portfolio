@@ -30,7 +30,12 @@ const Work = () => {
           </a>
 
           <a rel='noreferrer' target='_blank' href={project.githubLink}>
-            <button className='text-white border-2 px-6 py-3 hover:bg-pink-600 border-pink-600 duration-200'>
+            <button
+              className={
+                project.github
+                  ? 'text-white border-2 px-6 py-3 mr-3 hover:bg-pink-600 border-pink-600 duration-200'
+                  : 'hidden'
+              }>
               GitHub
             </button>
           </a>

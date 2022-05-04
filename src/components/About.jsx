@@ -1,7 +1,6 @@
 import React from 'react'
 
 const About = () => {
-  
   return (
     <div
       name='about'
@@ -22,10 +21,9 @@ const About = () => {
           <div>
             <p className='lg:max-w-[500px]'>
               I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              the lives of those around me. User experience, and writing clean
+              accessible code matters to me. I Love exploring and learning new
+              technologies. I'm currently pursuing a job in Web Development.
             </p>
           </div>
         </div>
