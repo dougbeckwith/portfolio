@@ -52,9 +52,8 @@ const Contact = () => {
             className='bg-[#ccd6f6] p-2'
             name='message'
             rows='10'
-            onChange={(e) => setMessage(e.target.value)}>
-            {message}
-          </textarea>
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}></textarea>
           <button
             type='submit'
             onClick={handleSubmit}

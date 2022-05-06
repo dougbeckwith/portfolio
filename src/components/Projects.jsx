@@ -1,14 +1,18 @@
 import React from 'react'
 import projectsData from '../projects.js'
+import Technologies from './Technologies.jsx'
 
 const Work = () => {
   //Creates project JSX from projectsData file
   const projects = projectsData
+
   const projectElements = projects.map((project) => {
+    const list = project.technologies
+    console.log(list)
     return (
       <div
         key={project.id}
-        className='max-w-[380px] mb-10 mr-10  bg-[#0a192f] flex items-center flex-col'>
+        className='max-w-[380px] pb-5 bg-[#0a192f] flex items-center flex-col text-md'>
         <div>
           <img
             className='w-[380px] h-[300px] rounded'
@@ -17,6 +21,9 @@ const Work = () => {
           />
         </div>
         <p className='py-4'>{project.description}</p>
+        <div className='flex w-full items-center py-2'>
+          <Technologies text={list} />
+        </div>
         <div className='flex w-full'>
           <a rel='noreferrer' target='_blank' href={project.demoLink}>
             <button
@@ -57,7 +64,7 @@ const Work = () => {
             These are my personal projects I've completed
           </p>
         </div>
-        <div className='flex flex-wrap'>{projectElements}</div>
+        <div className='flex gap-20 flex-wrap'>{projectElements}</div>
       </div>
     </div>
   )

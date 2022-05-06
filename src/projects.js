@@ -15,16 +15,19 @@ const Projects = [
     demoLink: 'https://halommr.com',
     github: false,
     githubLink: '',
+    technologies: ['React', 'TypeScript', 'Tailwind', 'Git'],
   },
   {
     id: 1,
     image: img1,
     description: `This web app fetch's the top 100 cryptocurrency data from an API. 
-    It uses the returned data to display information about each crypto. `,
+    It uses the returned data to display information about each crypto. You can also filter cryptos 
+    by the search bar and view more into on each coin `,
     demo: true,
     demoLink: 'https://profound-lolly-382242.netlify.app',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/crypto-search',
+    technologies: ['React', 'JavaScript', 'Tailwind', 'Git'],
   },
   {
     id: 2,
@@ -35,6 +38,7 @@ const Projects = [
     demoLink: 'https://dougbeckwith.github.io/',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/techdegree-project-4',
+    technologies: ['Javascript', 'HTML', 'CSS', 'Git'],
   },
   {
     id: 3,
@@ -45,6 +49,7 @@ const Projects = [
     demoLink: 'https://celebrated-bublanina-91730b.netlify.app/',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/techdegree-project-3',
+    technologies: ['Javascript', 'HTML', 'CSS'],
   },
   {
     id: 4,
@@ -56,6 +61,7 @@ const Projects = [
     demoLink: '',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/techdegree-project-2',
+    technologies: ['Javascript', 'HTML', 'CSS'],
   },
 ]
 
