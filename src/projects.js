@@ -9,7 +9,7 @@ const Projects = [
     id: 5,
     image: img5,
     description: `This app was created to easily help anyone visualize their MMR and CSR data in Halo Infinite. 
-     It helps solve the problem understanding your CSR as 343 does not give you any information. Github is private but happy to share if interested.
+     It helps solve the problem of understanding your CSR and MMR as the ranking system doesn't give players any feedback.
     `,
     demo: true,
     demoLink: 'https://halommr.com',
