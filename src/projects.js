@@ -9,7 +9,7 @@ const Projects = [
     id: 5,
     image: img5,
     description: `This app was created to easily help anyone visualize their MMR and CSR data in Halo Infinite. 
-     It helps solve the problem of understanding your CSR and MMR as the ranking system doesn't give players any feedback.
+     It helps solve the problem of understanding your CSR and MMR as the ranking system doesn't give players any feedback. Please ask to view if you don't have an account to login.
     `,
     demo: true,
     demoLink: 'https://halommr.com',
@@ -54,14 +54,13 @@ const Projects = [
   {
     id: 4,
     image: img4,
-    description: `This application takes an array of students and will only display up to 9 students 
-    from the array on the page. Clicking on the navigation buttons triggers an event and 
-    will access a different page of 9 students.`,
-    demo: false,
-    demoLink: '',
+    description: `Built a landing page that can be used to get
+     clients interesting in investing to sign up for an account`,
+    demo: true,
+    demoLink: 'https://meek-granita-53a799.netlify.app/',
     github: true,
-    githubLink: 'https://github.com/dougbeckwith/techdegree-project-2',
-    technologies: ['Javascript', 'HTML', 'CSS'],
+    githubLink: 'https://github.com/dougbeckwith/landing-page',
+    technologies: ['React', 'Tailwind'],
   },
 ]
 
