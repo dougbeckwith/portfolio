@@ -23,12 +23,12 @@ const About = () => {
               Over the last couple of years, I’ve come to know the world of
               software development and have fallen in love. I’ve decided I enjoy
               it so much that I wanted to make a career change. I’m currently
-              enjoying building apps using React. Each new project I create I
+              enjoying building apps using React. Each new project I create, I
               try to learn something new to improve my developer skills. My
-              favorite project so far is The Halo Infinite project below i built
-              with another software developer. I would love to share or demo the
-              project with you if you personally don’t play the game. I'm
-              currently pursuing a job in Web Development.
+              favorite project so far is The Halo Infinite project below that I
+              built with another software developer. I would love to share or
+              demo the project with you if you personally don’t play the game.
+              I'm currently pursuing a job in Web Development.
             </p>
           </div>
         </div>

@@ -16,8 +16,8 @@ const Home = () => {
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           I love exploring and learning new technologies. User experience, and
-          writing clean accessible code matters to me. Currently I'm working on
-          building responsive full stack web applications.
+          writing clean accessible code, matters to me. Currently, I'm working
+          on building responsive full stack web applications.
         </p>
         <div>
           <Link to='projects' smooth={true} duration={500}>

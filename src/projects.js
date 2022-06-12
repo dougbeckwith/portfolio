@@ -20,9 +20,9 @@ const Projects = [
   {
     id: 1,
     image: img1,
-    description: `This web app fetch's the top 100 cryptocurrency data from an API. 
-    It uses the returned data to display information about each crypto. You can also filter cryptos 
-    by the search bar and view more into on each coin `,
+    description: `This web app fetches the top 100 cryptocurrency data from an API. 
+    It uses the returned data to display information about each cryptocurrency. You can also filter cryptocurrency's
+    view charts, and make a watchlist. `,
     demo: true,
     demoLink: 'https://profound-lolly-382242.netlify.app',
     github: true,
@@ -55,12 +55,12 @@ const Projects = [
     id: 4,
     image: img4,
     description: `Built a landing page that can be used to get
-     clients interesting in investing to sign up for an account`,
+     clients interested in investing and to sign up for an account.`,
     demo: true,
     demoLink: 'https://meek-granita-53a799.netlify.app/',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/landing-page',
-    technologies: ['React', 'Tailwind'],
+    technologies: ['React', 'Javascript', 'HTML', 'Tailwind'],
   },
 ]
 
