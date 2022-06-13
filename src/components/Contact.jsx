@@ -1,16 +1,15 @@
 import React from 'react'
-import {useState} from 'react'
 
 const Contact = () => {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+  // const [name, setName] = useState('')
+  // const [email, setEmail] = useState('')
+  // const [message, setMessage] = useState('')
 
-  function handleSubmit() {
-    setName('')
-    setEmail('')
-    setMessage('')
-  }
+  // function handleSubmit() {
+  //   setName('')
+  //   setEmail('')
+  //   setMessage('')
+  // }
 
   return (
     <div
@@ -35,26 +34,19 @@ const Contact = () => {
             type='text'
             placeholder='Name'
             name='name'
-            value={name}
-            onChange={(e) => setName(e.target.value)}
           />
           <input
             className='my-4 p-2 bg-[#ccd6f6]'
             type='email'
             placeholder='Email'
             name='email'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
           />
           <textarea
             className='bg-[#ccd6f6] p-2'
             name='message'
-            rows='10'
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}></textarea>
+            rows='10'></textarea>
           <button
             type='submit'
-            onClick={handleSubmit}
             className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>
             Let's Collaborate
           </button>

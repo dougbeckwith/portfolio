@@ -39,8 +39,8 @@ const Projects = [
     `,
     demo: true,
     demoLink: 'https://halommr.com',
-    github: false,
-    githubLink: '',
+    github: true,
+    githubLink: 'https://github.com/dougbeckwith/halo-mmr',
     technologies: ['React', 'JavaScript', 'Tailwind', 'Git'],
   },
   {
