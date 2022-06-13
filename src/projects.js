@@ -33,7 +33,7 @@ const Projects = [
   {
     id: 6,
     image: img6,
-    description: `Work in Progress Building a full-stack web app that allows users to track their golf stats. 
+    description: `Work in progress: Building a full-stack web app that allows users to track their golf stats. 
     Users can add their golf clubs in their bag and easily view all clubs. 
     User can create, update or delete current stats for each golf club. 
     Implemented MVC design pattern into this project
