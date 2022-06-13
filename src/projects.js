@@ -3,6 +3,7 @@ import img2 from './assets/project2.png'
 import img3 from './assets/project3.png'
 import img4 from './assets/project4.png'
 import img5 from './assets/project5.png'
+import img6 from './assets/project6.png'
 
 const Projects = [
   {
@@ -21,13 +22,28 @@ const Projects = [
     id: 1,
     image: img1,
     description: `This web app fetches the top 100 cryptocurrency data from an API. 
-    It uses the returned data to display information about each cryptocurrency. You can also filter cryptocurrency's
+    It uses the returned data to display information about each cryptocurrency. You can filter cryptocurrencies,
     view charts, and make a watchlist. `,
     demo: true,
     demoLink: 'https://profound-lolly-382242.netlify.app',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/crypto-search',
     technologies: ['React', 'JavaScript', 'Tailwind', 'Git'],
+  },
+  {
+    id: 6,
+    image: img6,
+    description: `Work in Progress Building a full-stack web app that allows users to track their golf stats. 
+    Users can add their golf clubs in their bag and easily view all clubs. 
+    User can create, update or delete current stats for each golf club. 
+    Implemented MVC design pattern into this project
+    React, Express, MongoDB, Node.js, Git, Tailwind
+    `,
+    demo: true,
+    demoLink: 'https://golf-app-v2.herokuapp.com/clubs',
+    github: true,
+    githubLink: 'https://github.com/dougbeckwith/golf-stats-v2',
+    technologies: ['React', 'Express', 'Node.js', 'MongoDB', 'Tailwind', 'Git'],
   },
   {
     id: 2,
