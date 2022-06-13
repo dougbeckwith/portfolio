@@ -6,9 +6,7 @@ const Contact = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  function handleSubmit(e) {
-    e.preventDefault()
-
+  function handleSubmit() {
     setName('')
     setEmail('')
     setMessage('')
@@ -24,10 +22,10 @@ const Contact = () => {
           action='https://getform.io/f/3a755a98-e52f-48f7-b897-002c8105c161'
           className='flex flex-col max-w-[600px] w-full'>
           <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>
+            <p className=' text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>
               Contact
             </p>
-            <p className='text-gray-300 py-4'>
+            <p className='py-4  text-[#8892b0]'>
               Contact me by the form below or send me an email -
               dougcbeckwith@gmail.com
             </p>

@@ -29,7 +29,7 @@ const Work = () => {
             <button
               className={
                 project.demo
-                  ? 'text-white border-2 px-6 py-3 mr-3 hover:bg-pink-600 border-pink-600 duration-200'
+                  ? 'text-white border-2 px-3 py-2 mr-3 hover:bg-pink-600 border-pink-600 duration-200'
                   : 'hidden'
               }>
               Demo
@@ -40,7 +40,7 @@ const Work = () => {
             <button
               className={
                 project.github
-                  ? 'text-white border-2 px-6 py-3 mr-3 hover:bg-pink-600 border-pink-600 duration-200'
+                  ? 'text-white border-2 px-3 py-2 mr-3 hover:bg-pink-600 border-pink-600 duration-200'
                   : 'hidden'
               }>
               GitHub
@@ -60,11 +60,13 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
             Projects
           </p>
-          <p className='pt-4 pb-9'>
+          <p className='pt-4 pb-9  text-[#8892b0]'>
             These are my personal projects I've completed.
           </p>
         </div>
-        <div className='flex gap-20 flex-wrap'>{projectElements}</div>
+        <div className='flex gap-20 flex-wrap  text-[#8892b0]'>
+          {projectElements}
+        </div>
       </div>
     </div>
   )
