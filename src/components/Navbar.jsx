@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 // import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
@@ -93,7 +93,7 @@ const Navbar = () => {
       {/* Social Icon Side Bar */}
       <div className='hidden xl:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          {/* <a
+          <a
             rel='noreferrer'
             target='_blank'
             className='flex justify-between items-center w-full text-gray-300'
@@ -101,7 +101,7 @@ const Navbar = () => {
             <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
               Linkedin <FaLinkedin size={30} />
             </li>
-          </a> */}
+          </a>
           <a
             rel='noreferrer'
             target='_blank'
