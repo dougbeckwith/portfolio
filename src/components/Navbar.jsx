@@ -97,7 +97,7 @@ const Navbar = () => {
             rel='noreferrer'
             target='_blank'
             className='flex justify-between items-center w-full text-gray-300'
-            href='https://www.linkedin.com/in/doug-beckwith-1284b9224/'>
+            href='https://ca.linkedin.com/in/doug-beckwith-1284b9224'>
             <li className='w-[165px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
               Linkedin <FaLinkedin size={30} />
             </li>
