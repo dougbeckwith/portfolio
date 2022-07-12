@@ -1,12 +1,11 @@
-import React from 'react'
-import HTML from '../assets/html.png'
-import CSS from '../assets/css.png'
-import JavaScript from '../assets/javascript.png'
-import ReactImg from '../assets/react.png'
-import Node from '../assets/node.png'
-import GitHub from '../assets/github.png'
-import Tailwind from '../assets/tailwind.png'
-import Mongo from '../assets/mongo.png'
+import HTML from './images/html.png'
+import CSS from './images/css.png'
+import JavaScript from './images/javascript.png'
+import ReactImg from './images/react.png'
+import Node from './images/node.png'
+import GitHub from './images/github.png'
+import Tailwind from './images/tailwind.png'
+import Mongo from './images/mongo.png'
 
 const Skills = () => {
   return (

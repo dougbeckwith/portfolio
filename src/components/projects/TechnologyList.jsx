@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Technologies = ({text}) => {
+const Technologies = ({technologies}) => {
   return (
     <div className='h-full'>
-      <p className='text-md'>{text.join(', ')}</p>
+      <p className='text-md'>{technologies.join(', ')}</p>
     </div>
   )
 }
