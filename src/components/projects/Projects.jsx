@@ -1,6 +1,6 @@
 import ProjectList from './ProjectList.jsx'
 
-const Work = () => {
+const Projects = () => {
   return (
     <div
       name='projects'
@@ -11,16 +11,13 @@ const Work = () => {
             Projects
           </p>
           <p className='pt-4 pb-9  text-[#8892b0]'>
-            These are my personal projects I've completed, or I'm currently
-            working on.
+            These are my personal projects I'm Projectsing on.
           </p>
         </div>
-        <div className='flex gap-20 flex-wrap  text-[#8892b0]'>
-          <ProjectList />
-        </div>
+        <ProjectList />
       </div>
     </div>
   )
 }
 
-export default Work
+export default Projects

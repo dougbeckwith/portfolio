@@ -1,10 +1,9 @@
-import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 
-const Home = () => {
+const Hero = () => {
   return (
-    <div name='home' className='bg-[#0a192f] py-[200px] lg:py-[400px]'>
+    <div name='hero' className='bg-[#0a192f] py-[200px] lg:py-[400px]'>
       <div className='lg:max-w-[1000px] xl:max-w-[1110px] 2xl:max-w-[1400px] px-5 lg:px-0 mx-auto flex flex-col justify-center h-full w-full'>
         <p className='text-pink-600 text-lg'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-6xl 2xl:text-7xl font-bold text-[#ccd6f6]'>
@@ -30,4 +29,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Hero

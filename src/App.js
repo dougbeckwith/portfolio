@@ -1,6 +1,6 @@
 import React from 'react'
 import About from './components/about/About'
-import Home from './components/main/Home'
+import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Home />
+      <Hero />
       <About />
       <Projects />
       <Skills />

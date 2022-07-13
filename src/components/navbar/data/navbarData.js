@@ -1,7 +1,7 @@
 const navbarData = [
   {
     text: 'Home',
-    elementName: 'home',
+    elementName: 'hero',
   },
   {
     text: 'About',
