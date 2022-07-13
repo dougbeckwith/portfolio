@@ -11,8 +11,8 @@ const Skills = () => {
             Experience
           </p>
           <p className='py-4  text-[#8892b0]'>
-            These are the technologies I've worked with. Interested in learning
-            TypeScript next.
+            These are the technologies I've worked with. I'm interested in
+            learning TypeScript next.
           </p>
         </div>
         <SkillsList />
