@@ -12,7 +12,6 @@ const ProjectItem = ({project}) => {
       </div>
       <p className='py-4'>{project.description}</p>
       <div className='flex w-full items-center py-2'>
-        {/* <TechnologyList technologies={project.technologies} /> */}
         <div className='h-full'>
           <p className='text-md'>{project.technologies.join(', ')}</p>
         </div>
