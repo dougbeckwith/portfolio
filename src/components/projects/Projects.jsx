@@ -11,7 +11,8 @@ const Projects = () => {
             Projects
           </p>
           <p className='pt-4 pb-9  text-[#8892b0]'>
-            These are my personal projects I'm Projectsing on.
+            These are my personal projects I've completed and projects I'm
+            currently working on.
           </p>
         </div>
         <ProjectList />
