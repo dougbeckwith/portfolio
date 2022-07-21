@@ -34,7 +34,7 @@ const Contact = () => {
                 rel='noreferrer'
                 target='_blank'
                 className='text-gray-300 hover:text-pink-600'
-                href='https://www.linkedin.com/in/doug-beckwith-1284b9224/'>
+                href='https://linkedin.com/in/dougbeckwith22'>
                 <div className='w-[165px] h-[60px] flex items-center bg-[#0a192f]'>
                   <p className='pr-2'>Linkedin</p> <FaLinkedin size={30} />
                 </div>
