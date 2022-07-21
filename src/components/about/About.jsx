@@ -28,7 +28,6 @@ const About = () => {
               favorite project so far is The Halo Infinite project below that I
               built with another software developer. I would love to share or
               demo the project with you if you personally don’t play the game.
-              I'm currently pursuing a job in Web Development.
             </p>
           </div>
         </div>
