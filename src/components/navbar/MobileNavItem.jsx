@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-scroll'
-
-const NavItem = ({link, className = '', handleClick = null}) => {
+import {main} from '../../colors'
+const MobileNavItem = ({link, handleClick = null}) => {
   return (
-    <li className={className}>
+    <li className={`text-[${main}] py-6 text-4xl`}>
       <Link
         onClick={handleClick}
         to={link.elementName}
@@ -15,4 +15,4 @@ const NavItem = ({link, className = '', handleClick = null}) => {
   )
 }
 
-export default NavItem
+export default MobileNavItem

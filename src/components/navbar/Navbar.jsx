@@ -2,7 +2,8 @@ import {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import DesktopNavbar from './DesktopNavbar'
 import MobileNavbar from './MobileNavbar'
-import SocialNavbar from './SocialNavbar'
+
+// Colors
 
 const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false)
@@ -11,17 +12,18 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div
+      className={`fixed w-full h-[80px] flex justify-between items-center px-4 bg-background z-10`}>
       <div>
-        <p className='text-pink-600 text-2xl'>Portfolio</p>
+        <p className={`text-text text-xl`}>Doug Beckwith</p>
       </div>
       <DesktopNavbar />
       {/* Toggle Hamburger Icon / X Icon*/}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
         {isMobileMenu ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       <MobileNavbar isMobileMenu={isMobileMenu} handleClick={handleClick} />
-      <SocialNavbar />
+      {/* <SocialNavbar /> */}
     </div>
   )
 }

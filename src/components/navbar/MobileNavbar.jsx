@@ -1,21 +1,20 @@
 import {navbarData} from './data/navbarData'
 import {v4 as uuidv4} from 'uuid'
-import NavItem from './NavItem'
+import MobileNavbarItem from './MobileNavItem'
 
 const MobileNavbar = ({isMobileMenu, handleClick}) => {
   return (
     <ul
       className={
         isMobileMenu
-          ? 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+          ? `absolute top-0 left-0 w-full h-screen bg-[#f8f5f2] flex flex-col justify-center items-center cursor-pointer`
           : 'hidden'
       }>
       {navbarData.map((link) => {
         return (
-          <NavItem
+          <MobileNavbarItem
             key={uuidv4()}
             link={link}
-            className={'py-6 text-4xl'}
             handleClick={handleClick}
           />
         )

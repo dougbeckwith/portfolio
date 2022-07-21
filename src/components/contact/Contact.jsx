@@ -1,5 +1,4 @@
 import React from 'react'
-import {FaLinkedin, FaGithub} from 'react-icons/fa'
 
 const Contact = () => {
   // const [name, setName] = useState('')
@@ -15,7 +14,7 @@ const Contact = () => {
   return (
     <div
       name='contact'
-      className='lg:pt-[300px] lg:pb-[200px] w-full bg-[#0a192f] flex justify-center items-center p-4'>
+      className='lg:pt-[300px] lg:pb-[200px] w-full bg-[#666] flex justify-center items-center p-4'>
       <div className='lg:max-w-[1000px] xl:max-w-[1110px] 2xl:max-w-[1400px] pb-[50px] px-5 lg:px-0 mx-auto flex flex-col w-full'>
         <form
           method='POST'
@@ -29,26 +28,6 @@ const Contact = () => {
               Contact me by the form below or send me an email -
               dougcbeckwith@gmail.com
             </p>
-            <div className='flex xl:hidden'>
-              <a
-                rel='noreferrer'
-                target='_blank'
-                className='text-gray-300 hover:text-pink-600'
-                href='https://linkedin.com/in/dougbeckwith22'>
-                <div className='w-[165px] h-[60px] flex items-center bg-[#0a192f]'>
-                  <p className='pr-2'>Linkedin</p> <FaLinkedin size={30} />
-                </div>
-              </a>
-              <a
-                rel='noreferrer'
-                target='_blank'
-                className='text-gray-300 hover:text-pink-600'
-                href='https://github.com/dougbeckwith'>
-                <div className='w-[150px] h-[60px] flex items-center bg-[#0a192f]'>
-                  <p className='pr-2'>Github</p> <FaGithub size={30} />
-                </div>
-              </a>
-            </div>
           </div>
           <input
             className='bg-[#ccd6f6] p-2'

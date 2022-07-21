@@ -1,12 +1,12 @@
 import {navbarData} from './data/navbarData'
-import NavItem from './NavItem'
 import {v4 as uuidv4} from 'uuid'
+import DesktopNavItem from './DesktopNavItem'
 
 const DesktopNavbar = () => {
   return (
     <ul className='hidden md:flex'>
       {navbarData.map((link) => {
-        return <NavItem key={uuidv4()} link={link} />
+        return <DesktopNavItem key={uuidv4()} link={link} />
       })}
     </ul>
   )
