@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaLinkedin} from 'react-icons/fa'
 
 const Contact = () => {
   // const [name, setName] = useState('')
@@ -24,10 +25,19 @@ const Contact = () => {
             <p className=' text-4xl font-bold inline border-b-4 border-highlight'>
               Contact
             </p>
-            <p className='pt-4  text-text font-light'>
-              Contact me by the form below or send me an email -
-              dougcbeckwith@gmail.com
-            </p>
+            <div className='flex pt-2 items-center'>
+              <p className='text-text font-light pr-2'>Connect with me on </p>
+              <a
+                rel='noreferrer'
+                target='_blank'
+                className='text-highlight hover:text-pink'
+                href='https://linkedin.com/in/dougbeckwith22'>
+                <div className='w-[165px] h-[60px] flex items-center'>
+                  <FaLinkedin size={30} />{' '}
+                  <span className='pl-2'>Linkedin</span>
+                </div>
+              </a>
+            </div>
           </div>
           <input
             className='border rounded border-highlight p-2'
@@ -42,8 +52,9 @@ const Contact = () => {
             name='email'
           />
           <textarea
-            className='border rounded border-highlight p-2'
+            className='placeholder:text-opacity-50 border rounded border-highlight p-2'
             name='message'
+            placeholder='Message'
             rows='10'></textarea>
           <button
             type='submit'

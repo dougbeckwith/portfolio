@@ -7,7 +7,7 @@ const MobileNavbar = ({isMobileMenu, handleClick}) => {
     <ul
       className={
         isMobileMenu
-          ? `absolute top-0 left-0 w-full h-screen bg-[#f8f5f2] flex flex-col justify-center items-center cursor-pointer`
+          ? `absolute top-0 left-0 w-full h-screen bg-background flex flex-col justify-center items-center cursor-pointer`
           : 'hidden'
       }>
       {navbarData.map((link) => {

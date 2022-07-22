@@ -8,31 +8,31 @@ const ProjectItem = ({project}) => {
       <h3 className='text-[36px] pt-4 lg:pt-0 pb-5 font-semibold text-[#393a39]'>
         {project.name}
       </h3>
-      <div className='flex flex-col lg:flex-row w-full'>
+      <div className='flex flex-col lg:flex-row w-full justify-between'>
         <img
-          className='w-[500px] h-[500px] rounded shadow-2xl'
+          className='w-[500px] h-[400px] rounded shadow-2xl'
           src={project.image}
           alt=''
         />
 
-        <div className='lg:pl-40 flex-col'>
-          <p>Description</p>
-          <p className='pb-3 font-light'>{project.description}</p>
-          <p>Problems and Solutions</p>
-          <p className='pb-3 font-light'>
+        <div className='flex-col max-w-[900px]'>
+          <p className='font-semibold'>Description</p>
+          <p className='pb-3'>{project.description}</p>
+          <p className='font-semibold'>Problems and Solutions</p>
+          <p className='pb-3'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aut
             ratione officiis obcaecati, iste, exercitationem incidunt quasi sint
             pariatur dignissimos quibusdam quae placeat iure consequatur aliquid
             harum ad eaque quod.
           </p>
-          <p>Lessons Learned</p>
-          <p className='pb-3 font-light'>
+          <p className='font-semibold'>Lessons Learned</p>
+          <p className='pb-3'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt aut
             ratione officiis obcaecati, iste, exercitationem incidunt quasi sint
             pariatur dignissimos quibusdam quae placeat iure consequatur aliquid
             harum ad eaque quod.
           </p>
-          <p>Technologies</p>
+          <p className='font-semibold'>Technologies</p>
 
           <p className='pb-3 text-text font-light'>
             {project.technologies.join(', ')}

@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed w-full h-[80px] flex justify-between items-center px-4 bg-background z-10`}>
+      className={`w-full fixed z-10 h-[80px] flex justify-between items-center px-4 bg-background`}>
       <div>
-        <p className={`text-highlight text-xl`}>DB</p>
+        <p className={`text-highlight text-xl`}>Portfolio</p>
       </div>
       <DesktopNavbar />
       {/* Toggle Hamburger Icon / X Icon*/}
