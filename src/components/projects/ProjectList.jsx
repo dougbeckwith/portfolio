@@ -4,7 +4,7 @@ import {v4 as uuidv4} from 'uuid'
 
 const ProjectList = () => {
   return (
-    <div className='flex gap-20 flex-wrap  text-[#8892b0]'>
+    <div className=''>
       {projectsData
         .slice(0)
         .reverse()

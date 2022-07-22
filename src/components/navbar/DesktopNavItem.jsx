@@ -3,7 +3,8 @@ import {Link} from 'react-scroll'
 
 const DesktopNavItem = ({link, handleClick = null}) => {
   return (
-    <li className={`text-text hover:text-highlight px-4 cursor-pointer`}>
+    <li
+      className={`text-text text-md 2xl:text-lg hover:text-highlight px-4 cursor-pointer`}>
       <Link
         onClick={handleClick}
         to={link.elementName}
