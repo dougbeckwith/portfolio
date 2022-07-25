@@ -3,8 +3,6 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import DesktopNavbar from './DesktopNavbar'
 import MobileNavbar from './MobileNavbar'
 
-// Colors
-
 const Navbar = () => {
   const [isMobileMenu, setIsMobileMenu] = useState(false)
   const handleClick = () => {
@@ -20,10 +18,13 @@ const Navbar = () => {
       <DesktopNavbar />
       {/* Toggle Hamburger Icon / X Icon*/}
       <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
-        {isMobileMenu ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {isMobileMenu ? (
+          <FaTimes size={30} color='#393a39' />
+        ) : (
+          <FaBars size={30} color='#393a39' />
+        )}
       </div>
       <MobileNavbar isMobileMenu={isMobileMenu} handleClick={handleClick} />
-      {/* <SocialNavbar /> */}
     </div>
   )
 }

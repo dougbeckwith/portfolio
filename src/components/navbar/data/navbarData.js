@@ -12,10 +12,6 @@ const navbarData = [
     elementName: 'projects',
   },
   {
-    text: 'Skills',
-    elementName: 'skills',
-  },
-  {
     text: 'Contact',
     elementName: 'contact',
   },

@@ -1,16 +1,14 @@
 import projectsData from './data/projectsData'
 import ProjectItem from './ProjectItem'
-import {v4 as uuidv4} from 'uuid'
+import ProjectItemFlipped from './ProjectItemFlipped'
 
 const ProjectList = () => {
   return (
     <div className=''>
-      {projectsData
-        .slice(0)
-        .reverse()
-        .map((project) => {
-          return <ProjectItem key={uuidv4()} project={project} />
-        })}
+      <ProjectItem project={projectsData[3]} divider={true} />
+      <ProjectItemFlipped project={projectsData[2]} divider={true} />
+      <ProjectItem project={projectsData[1]} divider={true} />
+      <ProjectItemFlipped project={projectsData[0]} divider={false} />
     </div>
   )
 }

@@ -5,16 +5,16 @@ import {BiLinkExternal} from 'react-icons/bi'
 const ProjectItem = ({project, divider}) => {
   return (
     <div className='text-text'>
-      <h3 className='text-[28px] lg:text-[36px] pt-4 lg:pt-0 pb-5 font-semibold text-[#393a39]'>
+      <h3 className='text-[36px] pt-4 lg:pt-0 pb-5 font-semibold text-[#393a39]'>
         {project.name}
       </h3>
-      <div className='flex flex-col xl:flex-row w-full justify-between'>
+      <div className='flex flex-col xl:flex-row-reverse  w-full justify-between'>
         <img
           className='w-[400px] h-[300px] xl:w-[500px] xl:h-[400px] rounded shadow-2xl'
           src={project.image}
           alt=''
         />
-        <div className='pt-7 xl:pt-0 flex-col max-w-[700px] 2xl:max-w-[900px]'>
+        <div className='pt-7 xl:pt-0  flex-col max-w-[700px] 2xl:max-w-[900px]'>
           <h4 className='font-semibold'>Description</h4>
           <p className='pb-3'>{project.description}</p>
           <h4 className='font-semibold'>Problems and Solutions</h4>

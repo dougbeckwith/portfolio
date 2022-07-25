@@ -1,16 +1,5 @@
 import React from 'react'
-import {BsController} from 'react-icons/bs'
-import {IoGolfOutline} from 'react-icons/io5'
-import Skills from './Skills'
-import {
-  FaNodeJs,
-  FaReact,
-  FaGithub,
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaGitAlt,
-} from 'react-icons/fa'
+import {FaNodeJs, FaReact, FaJsSquare, FaGitAlt} from 'react-icons/fa'
 import {SiTailwindcss, SiMongodb, SiExpress} from 'react-icons/si'
 
 const About = () => {
@@ -20,11 +9,11 @@ const About = () => {
       className='w-full bg-background pt-[100px] pb-[100px] md:pb-[200px] '>
       <div className='container w-full h-full px-5 lg:px-0 mx-auto flex flex-col justify-center items-center'>
         <div className='text-left w-full'>
-          <h2 className='text-4xl text-text font-bold inline border-b-4 border-highlight'>
+          <h2 className='text-3xl md:text-4xl text-text font-bold inline border-b-4 border-highlight'>
             About
           </h2>
           <div className='max-w-[1000px]'>
-            <section className='text-text text-xl pt-6'>
+            <section className='text-text text-lg pt-6'>
               Web Developer based in Canada, BC.
             </section>
             <section className='text-text pt-2'>
@@ -42,12 +31,7 @@ const About = () => {
             <section className='pt-5 pb-2'>
               These are the technologies I've worked with.
             </section>
-
             <ul className='flex gap-5 flex-wrap text-highlight'>
-              {/* <div className='text-highlight flex items-center'>
-              <FaHtml5 size={25} />
-              <span className='pl-2'>HTML</span>
-            </div> */}
               <div className='text-highlight flex items-center'>
                 <FaJsSquare size={25} />
                 <span className='pl-2'>JavaScript</span>
@@ -60,12 +44,10 @@ const About = () => {
                 <SiTailwindcss size={25} />
                 <span className='pl-2 w-[129px]'>Tailwind CSS</span>
               </div>
-
               <div className='text-highlight flex items-center'>
                 <FaNodeJs size={25} />
                 <span className='pl-2'>Node.js</span>
               </div>
-
               <div className='text-highlight flex items-center'>
                 <SiMongodb size={25} />
                 <span className='pl-2'>MongoDB</span>
@@ -76,43 +58,12 @@ const About = () => {
               </div>
               <div className='text-highlight flex items-center'>
                 <SiExpress size={25} />
-
                 <span className='pl-2'>Express</span>
               </div>
             </ul>
           </div>
-          {/* <section className='text-lg pt-5'>Interests:</h3>
-        <div className='flex justify-between pt-4 text-highlight w-[500px]'>
-          <IoGolfOutline size={40} />
-          <BsController size={40} />
-        </div> */}
-          <div>
-            {/* <p className='lg:max-w-[500px] xl:max-w-[600px] font-light '>
-              Software Development started out as a hobbie for me about a year
-              ago. I enjoyed it so much I’ve decided that I wanted to make a
-              career change. I’m currently building apps using React and
-              Node.js. Each new project I create, I learn something new that
-              improves my developer skills.
-              <br />
-              <br />
-              <span className=''>
-                My favorite project so far is The Halo Infinite project below
-                that I built with another software developer. I would love to
-                share or demo the project for you.
-              </span>
-            </p> */}
-          </div>
         </div>
-
-        {/* <h3 className='text-[#3f3e3e] text-2xl md:text-3xl'>
-              Web Developer based in Canada, BC. I love creating web
-              applications that people can enjoy and use.
-            </h3>
-            <div className='text-highlight font-light pt-5 flex gap-4'>
-              
-            </div> */}
       </div>
-      {/* <Skills /> */}
     </div>
   )
 }
