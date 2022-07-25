@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <div
       name='contact'
-      className='w-full bg-background pt-[100px] pb-[100px] md:pb-[200px] '>
+      className='w-full bg-background pt-[100px] pb-[100px] md:py-[200px] xl:py-[300px] '>
       <div className='container w-full h-full px-5 lg:px-0 mx-auto flex flex-col justify-center items-center'>
         <div className='text-left w-full'>
           <form
@@ -27,7 +27,9 @@ const Contact = () => {
                 Contact
               </p>
               <div className='flex pt-5 items-center flex-wrap'>
-                <p className='text-text font-light pr-2'>Connect with me</p>
+                <p className='text-text font-light pr-2'>
+                  Connect with me through
+                </p>
                 <a
                   rel='noreferrer'
                   target='_blank'

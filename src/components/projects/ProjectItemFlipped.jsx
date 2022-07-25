@@ -48,7 +48,7 @@ const ProjectItem = ({project, divider}) => {
           </div>
         </div>
       </div>
-      {divider && <hr className='opacity-20 mt-5 lg:mt-8' />}
+      {divider && <hr className='opacity-20 mt-5 lg:mt-8 lg:mb-8' />}
     </div>
   )
 }

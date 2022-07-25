@@ -20,7 +20,7 @@ const Hero = () => {
             I'm a <span className='text-highlight'>Full Stack Developer.</span>
           </h2>
           <div className='max-w-[800px]  pt-4 pb-1'>
-            <span className='text-text'>
+            <span className='text-black'>
               I love exploring and learning new technologies. User experience,
               and writing clean accessible code, matters to me. Currently, I'm
               working on building responsive full stack web applications.

@@ -16,11 +16,11 @@ const ProjectItem = ({project, divider}) => {
         />
         <div className='pt-7 xl:pt-0 flex-col max-w-[700px] 2xl:max-w-[900px]'>
           <h4 className='font-semibold'>Description</h4>
-          <p className='pb-3'>{project.description}</p>
+          <p className='pb-3 text-black'>{project.description}</p>
           <h4 className='font-semibold'>Problems and Solutions</h4>
-          <p className='pb-3'>{project.problemsSolutions}</p>
+          <p className='pb-3 text-black'>{project.problemsSolutions}</p>
           <h4 className='font-semibold'>Lessons Learned</h4>
-          <p className='pb-3'>{project.lessonsLearned}</p>
+          <p className='pb-3 text-black'>{project.lessonsLearned}</p>
           <h4 className='font-semibold'>Technologies</h4>
           <p className='pb-3 text-text font-light'>
             {project.technologies.join(', ')}
@@ -48,7 +48,7 @@ const ProjectItem = ({project, divider}) => {
           </div>
         </div>
       </div>
-      {divider && <hr className='opacity-20 mt-5 lg:mt-8' />}
+      {divider && <hr className='opacity-20 mt-5 lg:mt-8 lg:mb-8' />}
     </div>
   )
 }

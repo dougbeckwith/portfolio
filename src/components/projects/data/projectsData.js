@@ -47,7 +47,7 @@ const projectData = [
     github: true,
     githubLink: 'https://github.com/dougbeckwith/crypto-search',
     technologies: ['React', 'JavaScript', 'Tailwind', 'Git'],
-    problemsSolutions: `I was working on creating a watchlist of cryptocurrencies by adding them to the DOM. But the watchlist was getting erased anytime I refreshed the webpage. I was able to learn about local storage and store an array of cryptos to repopulate the DOM on refresh. I also felt my code was getting harder to read with chaining .then methods. So, I learned the async await syntax to make my code more readable.`,
+    problemsSolutions: `While working on the watchlist feature of the app my watchlist was getting erased anytime I refreshed the webpage. I was able to learn about local storage and store an array of cryptos to repopulate the DOM on refresh. I also felt my code was getting harder to read with chaining .then methods. So, I learned the async await syntax to make my code more readable.`,
     lessonsLearned: `I was able to better understand local storage and its use cases. I also learned how implement different libraries to help with display data using charts and create spinner icons while data is loading. I also learned about the React Router v6 library for client-side routing.  Made use of useParams() and useNavigate() in React.`,
   },
 
