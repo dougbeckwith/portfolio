@@ -3,15 +3,19 @@ import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
+import Alert from './Alert'
+import {useState} from 'react'
 
 const App = () => {
+  const [show, setShow] = useState(false)
   return (
     <>
       <Navbar />
       <Hero />
       <About />
       <Projects />
-      <Contact />
+      <Contact show={show} setShow={setShow} />
+      <Alert show={show} setShow={setShow} />
     </>
   )
 }
