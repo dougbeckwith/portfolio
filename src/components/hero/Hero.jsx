@@ -4,7 +4,6 @@ import {FaLinkedin, FaGithub} from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    //  w-full md:w-9/12 2xl:w-8/12
     <div
       name='hero'
       className={`bg-background pt-[100px] md:pt-[0px] h-screen min-h-[700px]`}>

@@ -14,10 +14,10 @@ const About = () => {
           </h2>
           <div className='max-w-[1000px]'>
             <section className='text-black text-lg pt-6'>
-              Web Developer based in Canada, BC.
+              Web Developer based in BC, Canada.
             </section>
             <section className='text-black pt-2'>
-              Software Development started out as a hobbie for me. I enjoyed it
+              Software Development started out as a hobby for me. I enjoyed it
               so much I’ve decided to make a career change. I’m currently
               building web apps using React and Node.js. Each new project I
               create, I learn something new that improves my developer skills.
@@ -25,8 +25,8 @@ const About = () => {
             <section className='text-black pt-2'>
               My favorite project so far is The Halo Infinite project below that
               I built with another software developer. I would love to share or
-              demo the project for you. If im not working you'll find me
-              golfing, or gaming with friends.
+              demo the project for you. If I’m not working, you'll find me
+              golfing or gaming with friends.
             </section>
             <section className='text-black pt-5 pb-2'>
               These are the technologies I've worked with.

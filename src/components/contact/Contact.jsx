@@ -42,22 +42,28 @@ const Contact = () => {
                 </a>
               </div>
             </div>
+            <label htmlFor='name'>Name</label>
             <input
               className='border rounded border-text p-2'
               type='text'
-              placeholder='Name'
+              placeholder='John Deer'
               name='name'
             />
+
+            <label htmlFor='email' className='pt-2'>
+              Email
+            </label>
             <input
-              className='my-4 p-2 border rounded border-text'
+              className='mb-2 p-2 border rounded border-text'
               type='email'
-              placeholder='Email'
+              placeholder='john@gmail.com'
               name='email'
             />
+            <label htmlFor='message'>Message</label>
             <textarea
               className='placeholder:text-opacity-50 border rounded border-text p-2'
               name='message'
-              placeholder='Message'
+              placeholder='Message...'
               rows='10'></textarea>
             <button
               type='submit'
