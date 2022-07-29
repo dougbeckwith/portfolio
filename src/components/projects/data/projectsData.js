@@ -58,7 +58,7 @@ const projectData = [
     description: `I’m Building a full-stack web app that allows users to track their golf club stats. This app uses a RESTful API so users can view create delete update stats on each golf club they own. It uses MongoDB for storing users club data. My next feature on the app will be adding create account and login ability.  
     `,
     demo: true,
-    demoLink: 'https://golf-app-v2.herokuapp.com/clubs',
+    demoLink: 'https://golf-app-v2.herokuapp.com',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/golf-stats-v2',
     technologies: [
