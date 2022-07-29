@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div
       name='projects'
-      className='w-full md:pt-[200px] bg-background text-gray-300'>
+      className='w-full pt-[100px] lg:pt-[200px] bg-background text-gray-300'>
       <div className='container w-full h-full px-5 lg:px-0 mx-auto flex flex-col justify-center items-center'>
         <div className='text-left w-full '>
           <h2 className='text-3xl md:text-4xl text-text font-bold inline border-b-4 border-highlight'>
