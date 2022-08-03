@@ -35,9 +35,19 @@ const Navbar = () => {
       <div className='flex items-center'>
         <p className='text-teal-200 text-xl pr-2'>Portfolio</p>
         {theme === 'light' ? (
-          <MdDarkMode onClick={toggleTheme} size={25} color='#9ca3af' />
+          <MdDarkMode
+            onClick={toggleTheme}
+            size={25}
+            color='#9ca3af'
+            className='cursor-pointer'
+          />
         ) : (
-          <MdLightMode onClick={toggleTheme} size={25} color='#9ca3af' />
+          <MdLightMode
+            onClick={toggleTheme}
+            size={25}
+            color='#9ca3af'
+            className='cursor-pointer'
+          />
         )}
       </div>
       <DesktopNavbar />

@@ -7,7 +7,7 @@ const MobileNavbar = ({isMobileMenu, handleClick}) => {
     <ul
       className={
         isMobileMenu
-          ? `dark:bg-gray-700 absolute top-0 left-0 w-full h-screen bg-gray-100 flex flex-col justify-center items-center cursor-pointer`
+          ? `dark:bg-gray-700 absolute top-0 left-0 w-full h-screen bg-gray-100 flex flex-col items-center justify-center cursor-pointer`
           : 'hidden'
       }>
       {navbarData.map((link) => {
