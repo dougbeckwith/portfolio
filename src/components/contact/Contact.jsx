@@ -84,7 +84,7 @@ const Contact = ({setShow}) => {
   return (
     <div
       name='contact'
-      className='w-full bg-background pt-[100px] pb-[100px] md:py-[200px] xl:py-[300px] '>
+      className='dark:bg-gray-700 dark:text-gray-500 w-full bg-gray-100 pt-[100px] pb-[100px] md:py-[200px] xl:py-[300px] text-gray-600'>
       <div className='container w-full h-full px-5 lg:px-0 mx-auto flex flex-col justify-center items-center'>
         <div className='text-left w-full'>
           <form
@@ -92,17 +92,15 @@ const Contact = ({setShow}) => {
             onSubmit={handleSubmit}
             className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-2'>
-              <p className='text-text text-3xl md:text-4xl font-bold inline border-b-4 border-highlight'>
+              <p className=' text-3xl md:text-4xl font-bold inline border-b-4 border-teal-200'>
                 Contact
               </p>
               <div className='flex pt-5 items-center flex-wrap'>
-                <p className='text-text font-light pr-2'>
-                  Connect with me through
-                </p>
+                <p className=' pr-2'>Connect with me through</p>
                 <a
                   rel='noreferrer'
                   target='_blank'
-                  className='text-highlight hover:text-pink'
+                  className='text-teal-200 hover:text-teal-100'
                   href='https://linkedin.com/in/dougbeckwith22'>
                   <div className='flex items-center'>
                     <FaLinkedin size={30} />{' '}
@@ -113,21 +111,24 @@ const Contact = ({setShow}) => {
             </div>
             <label htmlFor='name'>Name</label>
             <input
-              className='border rounded border-text p-2'
+              className='dark:bg-dark-300 dark:text-gray-400 focus:outline-none focus:border-teal-200  focus:ring-teal-200 dark:placeholder:text-placeholder dark:placeholder:opacity-50 placeholder:text-gray-600 placeholder:text-opacity-50 p-2 border rounded border-gray-600'
               type='text'
-              placeholder='John Deer'
+              placeholder='John Doe'
               name='name'
               value={name}
               onChange={(e) => handleNameChange(e)}
             />
-            <p className={nameError ? 'text-sm h-4 text-red' : 'invisible h-4'}>
+            <p
+              className={
+                nameError ? 'text-sm h-4 text-teal-200' : 'invisible h-4'
+              }>
               Please enter a name.
             </p>
             <label htmlFor='email' className='pt-2'>
               Email
             </label>
             <input
-              className=' p-2 border rounded border-text'
+              className='dark:bg-dark-300 dark:text-gray-400 focus:outline-none focus:border-teal-200  focus:ring-teal-200 dark:placeholder:text-placeholder dark:placeholder:opacity-50 placeholder:text-gray-600 placeholder:text-opacity-50 p-2 border rounded border-gray-600'
               type='email'
               placeholder='john@gmail.com'
               name='email'
@@ -135,14 +136,16 @@ const Contact = ({setShow}) => {
               onChange={(e) => handleEmailChange(e)}
             />
             <p
-              className={emailError ? 'text-sm h-4 text-red' : 'invisible h-4'}>
+              className={
+                emailError ? 'text-sm h-4 text-teal-200' : 'invisible h-4'
+              }>
               Please enter a email.
             </p>
             <label htmlFor='message' className='mt-2'>
               Message
             </label>
             <textarea
-              className='placeholder:text-opacity-50 border rounded border-text p-2'
+              className='dark:bg-dark-300 dark:text-gray-400 focus:outline-none focus:border-teal-200  focus:ring-teal-200 dark:placeholder:text-placeholder dark:placeholder:opacity-50 placeholder:text-gray-600 placeholder:text-opacity-50 p-2 border rounded border-gray-600'
               name='message'
               placeholder='Message...'
               rows='10'
@@ -151,12 +154,12 @@ const Contact = ({setShow}) => {
             />
             <p
               className={
-                textareaError ? 'text-sm h-4 text-red' : 'invisible h-4'
+                textareaError ? 'text-sm h-4 text-teal-200' : 'invisible h-4'
               }>
               Please enter a message.
             </p>
 
-            <button className='text-[white] shadow-[#747773] shadow-md rounded  px-6 py-3 my-2 flex items-center hover:bg-pink  bg-highlight duration-200 mx-auto'>
+            <button className='dark:shadow-none dark:text-gray-400 text-white shadow-[#747773] shadow-md rounded  px-6 py-3 my-2 flex items-center hover:bg-teal-100  bg-teal-200 duration-200 mx-auto'>
               Let's Collaborate
             </button>
           </form>

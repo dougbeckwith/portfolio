@@ -7,6 +7,7 @@ import Alert from './Alert'
 import {useState} from 'react'
 
 const App = () => {
+  // State for contact alert after submit
   const [show, setShow] = useState(false)
   return (
     <>
