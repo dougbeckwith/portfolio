@@ -4,11 +4,13 @@ import DesktopNavItem from './DesktopNavItem'
 
 const DesktopNavbar = () => {
   return (
-    <ul className='hidden md:flex'>
-      {navbarData.map((link) => {
-        return <DesktopNavItem key={uuidv4()} link={link} />
-      })}
-    </ul>
+    <nav>
+      <ul className='hidden md:flex'>
+        {navbarData.map((link) => {
+          return <DesktopNavItem key={uuidv4()} link={link} />
+        })}
+      </ul>
+    </nav>
   )
 }
 

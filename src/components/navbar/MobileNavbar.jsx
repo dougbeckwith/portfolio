@@ -4,22 +4,24 @@ import MobileNavbarItem from './MobileNavItem'
 
 const MobileNavbar = ({isMobileMenu, handleClick}) => {
   return (
-    <ul
+    <nav
       className={
         isMobileMenu
           ? `dark:bg-gray-700 absolute top-0 left-0 w-full h-screen bg-gray-100 flex flex-col items-center justify-center cursor-pointer`
           : 'hidden'
       }>
-      {navbarData.map((link) => {
-        return (
-          <MobileNavbarItem
-            key={uuidv4()}
-            link={link}
-            handleClick={handleClick}
-          />
-        )
-      })}
-    </ul>
+      <ul>
+        {navbarData.map((link) => {
+          return (
+            <MobileNavbarItem
+              key={uuidv4()}
+              link={link}
+              handleClick={handleClick}
+            />
+          )
+        })}
+      </ul>
+    </nav>
   )
 }
 

@@ -4,7 +4,7 @@ import ProjectItemFlipped from './ProjectItemFlipped'
 
 const ProjectList = () => {
   return (
-    <div className=''>
+    <div>
       <ProjectItem project={projectsData[3]} divider={true} />
       <ProjectItemFlipped project={projectsData[2]} divider={true} />
       <ProjectItem project={projectsData[1]} divider={true} />

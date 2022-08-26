@@ -85,17 +85,17 @@ const Contact = ({setShow}) => {
     <div
       name='contact'
       className='dark:bg-gray-700 dark:text-gray-500 w-full bg-gray-100 pt-[100px] pb-[100px] md:py-[200px] xl:py-[300px] text-gray-600'>
-      <div className='container w-full h-full px-5 lg:px-0 mx-auto flex flex-col justify-center items-center'>
-        <div className='text-left w-full'>
+      <div className='container w-full h-full px-5 mx-auto flex flex-col justify-center items-center'>
+        <article className='text-left w-full'>
           <form
             method='POST'
             onSubmit={handleSubmit}
             className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-2'>
-              <p className=' text-3xl md:text-4xl font-bold inline border-b-4 border-teal-200'>
+              <h2 className=' text-3xl md:text-4xl font-bold inline border-b-4 border-teal-200'>
                 Contact
-              </p>
-              <div className='flex pt-5 items-center flex-wrap'>
+              </h2>
+              <section className='flex pt-5 items-center flex-wrap'>
                 <p className=' pr-2'>Connect with me through</p>
                 <a
                   rel='noreferrer'
@@ -107,7 +107,7 @@ const Contact = ({setShow}) => {
                     <span className='pl-2'>LinkedIn</span>
                   </div>
                 </a>
-              </div>
+              </section>
             </div>
             <label htmlFor='name'>Name</label>
             <input
@@ -158,12 +158,11 @@ const Contact = ({setShow}) => {
               }>
               Please enter a message.
             </p>
-
             <button className='dark:shadow-none dark:text-gray-400 text-white shadow-[#747773] shadow-md rounded  px-6 py-3 my-2 flex items-center hover:bg-teal-100  bg-teal-200 duration-200 mx-auto'>
               Let's Collaborate
             </button>
           </form>
-        </div>
+        </article>
       </div>
     </div>
   )

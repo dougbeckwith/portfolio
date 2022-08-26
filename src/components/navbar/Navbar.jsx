@@ -30,10 +30,10 @@ const Navbar = () => {
   }
 
   return (
-    <div
+    <header
       className={`dark:bg-gray-700 dark:text-gray-500 w-full fixed z-10 h-[80px] flex justify-between items-center px-4 bg-gray-100`}>
       <div className='flex items-center'>
-        <p className='text-teal-200 text-xl pr-2'>Portfolio</p>
+        <h1 className='text-teal-200 text-xl pr-2'>Portfolio</h1>
         {theme === 'light' ? (
           <MdDarkMode
             onClick={toggleTheme}
@@ -60,7 +60,7 @@ const Navbar = () => {
         )}
       </div>
       <MobileNavbar isMobileMenu={isMobileMenu} handleClick={handleClick} />
-    </div>
+    </header>
   )
 }
 
