@@ -39,15 +39,15 @@ const ProjectItem = ({project, divider}) => {
           </div>
         </div>
         <div className='pt-7 xl:pt-0 flex-col max-w-[700px] 2xl:max-w-[900px]'>
-          <h4 className='font-semibold dark:text-teal-200'>Description</h4>
+          <h4 className='text-lg font-bold text-teal-200'>Description</h4>
           <p className='pb-3'>{project.description}</p>
-          <h4 className='font-semibold dark:text-teal-200'>
+          <h4 className='text-lg font-bold text-teal-200'>
             Problems and Solutions
           </h4>
           <p className='pb-3'>{project.problemsSolutions}</p>
-          <h4 className='font-semibold dark:text-teal-200'>Lessons Learned</h4>
+          <h4 className='text-lg font-bold text-teal-200'>Lessons Learned</h4>
           <p className='pb-3'>{project.lessonsLearned}</p>
-          <h4 className='font-semibold dark:text-teal-200'>Technologies</h4>
+          <h4 className='text-lg font-bold text-teal-200'>Technologies</h4>
           <p className='pb-3 font-light'>{project.technologies.join(', ')}</p>
         </div>
       </div>

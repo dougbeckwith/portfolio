@@ -13,20 +13,22 @@ const About = () => {
             About
           </h2>
           <section className='max-w-[1000px]'>
-            <p className='text-lg pt-6'>Web Developer based in BC, Canada.</p>
-            <p className='pt-2'>
+            <p className='text-lg pt-6 pb-2'>
+              Web Developer based in BC, Canada.
+            </p>
+            <p className='pt-2 pb-4'>
               Software Development started out as a hobby for me. I enjoyed it
               so much I’ve decided to make a career change. I’m currently
               building web apps using React and Node.js. Each new project I
               create, I learn something new that improves my developer skills.
             </p>
-            <p className='pt-2'>
+            <p className='pt-2 pb-4'>
               My favorite project so far is The Halo Infinite project below that
               I built with another software developer. I would love to share or
               demo the project for you. If I’m not working, you'll find me
               golfing or gaming with friends.
             </p>
-            <p className='pt-5 pb-2'>
+            <p className='pt-2 pb-2'>
               These are the technologies I've worked with.
             </p>
             <ul className='flex gap-5 flex-wrap text-teal-200'>
@@ -40,7 +42,7 @@ const About = () => {
               </div>
               <div className='flex items-center'>
                 <SiTailwindcss size={25} />
-                <p className='pl-2 w-[129px]'>Tailwind CSS</p>
+                <p className='pl-2 w-[140px]'>Tailwind CSS</p>
               </div>
               <div className='flex items-center'>
                 <FaNodeJs size={25} />
