@@ -18,9 +18,9 @@ const About = () => {
             </p>
             <p className='pt-2 pb-4'>
               Software Development started out as a hobby for me. I enjoyed it
-              so much I’ve decided to make a career change. I’m currently
-              building web apps using React and Node.js. Each new project I
-              create, I learn something new that improves my developer skills.
+              so much I decided to make a career change. I’m currently building
+              web apps using React and Node.js. Each new project I create, I
+              learn something new that improves my developer skills.
             </p>
             <p className='pt-2 pb-4'>
               My favorite project so far is The Halo Infinite project below that
