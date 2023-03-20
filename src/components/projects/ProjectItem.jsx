@@ -16,16 +16,18 @@ const ProjectItem = ({project, divider}) => {
             alt='project'
           />
           <div className='flex pt-5'>
-            <a
-              rel='noreferrer'
-              target='_blank'
-              className='text-teal-200 hover:text-teal-100'
-              href={project.demoLink}>
-              <figure className='flex items-center pr-5'>
-                <BiLinkExternal alt='link svg' size={40} />{' '}
-                <figcaption className='pl-2 text-lg'>Demo</figcaption>
-              </figure>
-            </a>
+            {project.demo && (
+              <a
+                rel='noreferrer'
+                target='_blank'
+                className='text-teal-200 hover:text-teal-100'
+                href={project.demoLink}>
+                <figure className='flex items-center pr-5'>
+                  <BiLinkExternal alt='link svg' size={40} />{' '}
+                  <figcaption className='pl-2 text-lg'>Demo</figcaption>
+                </figure>
+              </a>
+            )}
             <a
               rel='noreferrer'
               target='_blank'
