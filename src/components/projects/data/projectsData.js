@@ -26,7 +26,7 @@ const projectData = [
     description: `This app was created to easily help anyone visualize their ranked matchmaking data in Halo Infinite. 
      It helps solve the problem of understanding your CSR and MMR as the ranking system doesn't give players any feedback. Please ask for demo if you don't play halo and have an account to login.
     `,
-    demo: true,
+    demo: false,
     demoLink: 'https://halommr.com',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/mmr-halo-public',
@@ -58,7 +58,7 @@ const projectData = [
     description: `I’m Building a full-stack web app that allows users to track their golf club stats. This app uses a RESTful API so users can view create delete update stats on each golf club they own. It uses MongoDB for storing users club data. My next feature on the app will be adding create account and login ability.  
     `,
     demo: true,
-    demoLink: 'https://golf-app-v2.herokuapp.com',
+    demoLink: 'https://cyan-crowded-bandicoot.cyclic.app',
     github: true,
     githubLink: 'https://github.com/dougbeckwith/golf-stats-v2',
     technologies: [
