@@ -56,7 +56,7 @@ const projectData = [
     id: 4,
     image: img4,
     name: "Golf Stats",
-    description: `I am Building a full-stack web app that allows users to track their golf stats. This app uses a RESTful API so users can view create delete update stats on each golf club they own and more. It uses MongoDB for storing users golf data. 
+    description: `I am building a full-stack web app that allows users to track their golf stats. This app uses a RESTful API so users can view create delete update stats on each golf club they own and more. It uses MongoDB for storing users golf data. 
     `,
     demo: true,
     demoLink: "https://amazing-fenglisu-529860.netlify.app/",
