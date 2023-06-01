@@ -37,8 +37,8 @@ const About = () => {
             <p className="pt-2 pb-4">
               My favorite project so far is The Halo Infinite project below that
               I built with another software developer. When I'm not working,
-              you'll typically find me either golfing, hitting the gym, or
-              enjoying gaming sessions with my friends.
+              you'll typically find me either golfing, working out, or enjoying
+              gaming with my friends.
             </p>
             <p className="pt-2 pb-2">
               These are the technologies I've worked with.
