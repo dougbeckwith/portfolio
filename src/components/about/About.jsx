@@ -11,7 +11,8 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiExpress,
-  SiPostgresql
+  SiPostgresql,
+  SiTypescript
 } from "react-icons/si";
 
 const About = () => {
@@ -59,6 +60,10 @@ const About = () => {
               <div className="flex items-center">
                 <FaReact size={25} />
                 <p className="pl-2">React</p>
+              </div>
+              <div className="flex items-center">
+                <SiTypescript size={25} />
+                <p className="pl-2">TypeScript</p>
               </div>
               <div className="flex items-center">
                 <SiTailwindcss size={25} />
