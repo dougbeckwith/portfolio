@@ -5,8 +5,10 @@ import {
   FaJsSquare,
   FaGitAlt,
   FaHtml5,
-  FaCss3Alt
+  FaCss3Alt,
+  SiPostman
 } from "react-icons/fa";
+
 import {
   SiTailwindcss,
   SiMongodb,
@@ -82,8 +84,8 @@ const About = () => {
                 <p className="pl-2">PostgreSQL</p>
               </div>
               <div className="flex items-center">
-                <SiMongodb size={25} />
-                <p className="pl-2">MongoDB</p>
+                <SiPostman size={25} />
+                <p className="pl-2">Postman</p>
               </div>
               <div className="flex items-center">
                 <FaGitAlt size={25} />
