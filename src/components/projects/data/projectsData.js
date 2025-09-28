@@ -43,7 +43,7 @@ const projectData = [
     description: `This web app fetches the top 100 cryptocurrency data from an API. 
     It uses the returned data to display information about each cryptocurrency. You can filter cryptocurrencies,
     view charts, and make a watchlist.`,
-    demo: true,
+    demo: false,
     demoLink: "https://profound-lolly-382242.netlify.app",
     github: true,
     githubLink: "https://github.com/dougbeckwith/crypto-search",
