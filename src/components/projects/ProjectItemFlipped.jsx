@@ -16,7 +16,8 @@ const ProjectItem = ({ project, divider }) => {
             alt="project"
           />
           <div className="flex pt-5">
-            <a
+             {project.demo && (
+              <a
               rel="noreferrer"
               target="_blank"
               className="text-teal-200 hover:text-teal-100"
@@ -26,6 +27,8 @@ const ProjectItem = ({ project, divider }) => {
                 <figcaption className="pl-2 text-lg">Demo</figcaption>
               </figure>
             </a>
+            )}
+
             <a
               rel="noreferrer"
               target="_blank"
