@@ -69,7 +69,7 @@ const About = () => {
               </div>
               <div className="flex items-center">
                 <SiDatadog  size={25} />
-                <p className="pl-2 w-[140px]">DataDog</p>
+                <p className="pl-2">DataDog</p>
               </div>
               <div className="flex items-center">
                 <FaNodeJs size={25} />
@@ -81,7 +81,7 @@ const About = () => {
               </div>
               <div className="flex items-center">
                 <SiPostgresql size={25} />
-                <p className="pl-2">PostgreSQL</p>
+                <p className="pl-2">SQL</p>
               </div>
               <div className="flex items-center">
                 <SiPostman size={25} />
