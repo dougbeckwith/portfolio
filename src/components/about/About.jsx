@@ -64,32 +64,24 @@ const About = () => {
                 <p className="pl-2">React</p>
               </div>
               <div className="flex items-center">
-                <SiTypescript size={25} />
-                <p className="pl-2">TypeScript</p>
-              </div>
-              <div className="flex items-center">
-                <SiDatadog  size={25} />
-                <p className="pl-2">DataDog</p>
-              </div>
-              <div className="flex items-center">
                 <FaNodeJs size={25} />
                 <p className="pl-2">Node.js</p>
-              </div>
-              <div className="flex items-center">
-                <SiExpress size={25} />
-                <p className="pl-2">Express</p>
               </div>
               <div className="flex items-center">
                 <SiPostgresql size={25} />
                 <p className="pl-2">SQL</p>
               </div>
               <div className="flex items-center">
+                <FaGitAlt size={25} />
+                <p className="pl-2">Git</p>
+              </div>
+              <div className="flex items-center">
                 <SiPostman size={25} />
                 <p className="pl-2">Postman</p>
               </div>
               <div className="flex items-center">
-                <FaGitAlt size={25} />
-                <p className="pl-2">Git</p>
+                <SiDatadog  size={25} />
+                <p className="pl-2">DataDog</p>
               </div>
             </ul>
           </section>
