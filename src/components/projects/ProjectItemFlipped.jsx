@@ -28,7 +28,6 @@ const ProjectItem = ({ project, divider }) => {
               </figure>
             </a>
             )}
-
             <a
               rel="noreferrer"
               target="_blank"
