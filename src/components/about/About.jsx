@@ -6,12 +6,12 @@ import {
   FaGitAlt,
   FaHtml5,
   FaCss3Alt,
-  SiPostman
+  
 } from "react-icons/fa";
 
 import {
   SiTailwindcss,
-  SiMongodb,
+  SiPostman,
   SiExpress,
   SiPostgresql,
   SiTypescript
