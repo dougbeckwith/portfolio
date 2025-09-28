@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 
 import {
-  SiTailwindcss,
+  SiDatadog ,
   SiPostman,
   SiExpress,
   SiPostgresql,
@@ -68,8 +68,8 @@ const About = () => {
                 <p className="pl-2">TypeScript</p>
               </div>
               <div className="flex items-center">
-                <SiTailwindcss size={25} />
-                <p className="pl-2 w-[140px]">Tailwind CSS</p>
+                <SiDatadog  size={25} />
+                <p className="pl-2 w-[140px]">DataDog</p>
               </div>
               <div className="flex items-center">
                 <FaNodeJs size={25} />
