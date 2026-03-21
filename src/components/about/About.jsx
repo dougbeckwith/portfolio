@@ -12,9 +12,7 @@ import {
 import {
   SiDatadog ,
   SiPostman,
-  SiExpress,
   SiPostgresql,
-  SiTypescript
 } from "react-icons/si";
 
 const About = () => {
@@ -29,22 +27,21 @@ const About = () => {
           </h2>
           <section className="max-w-[1000px]">
             <p className="text-lg pt-6 pb-2">
-              Web Developer based in BC, Canada.
+               Quality Assurance Engineer based in BC, Canada.
             </p>
             <p className="pt-2 pb-4">
-              Software Development started out as a hobby for me. I enjoyed it
-              so much I decided to make a career change. I’m currently building
-              web apps using React and Node.js. Each new project I create, I
-              learn something new that improves my developer skills.
+              My journey into tech started as a hobby, driven by curiosity and a 
+              desire to learn something new. Over time, that interest grew into a 
+              full career transition. I’m currently working as a Quality Assurance Engineer at ChowNow, 
+              where I focus on ensuring product quality and delivering a reliable user experience.
             </p>
             <p className="pt-2 pb-4">
-              My favorite project so far is The Halo Infinite project below that
-              I built with another software developer. When I'm not working,
-              you'll typically find me either golfing, working out, or enjoying
-              gaming with my friends.
+              I enjoy continuously learning and improving in my role, as well as through personal projects. 
+              My favorite project so far is the Halo Infinite project below, which I built with another developer. 
+              When I'm not working, you'll usually find me golfing, working out, hiking, swimming, or gaming with friends.
             </p>
             <p className="pt-2 pb-2">
-              These are the technologies I've worked with.
+              These are some of the technologies I've worked with.
             </p>
             <ul className="flex gap-5 flex-wrap text-teal-200">
               <div className="flex items-center">

@@ -110,7 +110,7 @@ const Contact = ({ setShow }) => {
             <input
               className="dark:bg-dark-300 dark:text-gray-400 focus:outline-none focus:border-teal-200  focus:ring-teal-200 dark:placeholder:text-placeholder dark:placeholder:opacity-50 placeholder:text-gray-600 placeholder:text-opacity-50 p-2 border rounded border-gray-600"
               type="text"
-              placeholder="John Doe"
+              placeholder="Alex Morgan"
               name="name"
               value={name}
               onChange={(e) => handleNameChange(e)}
@@ -127,7 +127,7 @@ const Contact = ({ setShow }) => {
             <input
               className="dark:bg-dark-300 dark:text-gray-400 focus:outline-none focus:border-teal-200  focus:ring-teal-200 dark:placeholder:text-placeholder dark:placeholder:opacity-50 placeholder:text-gray-600 placeholder:text-opacity-50 p-2 border rounded border-gray-600"
               type="email"
-              placeholder="john@gmail.com"
+              placeholder="alex@gmail.com"
               name="email"
               value={email}
               onChange={(e) => handleEmailChange(e)}

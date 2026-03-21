@@ -16,12 +16,12 @@ const Hero = () => {
             Doug Beckwith
           </h2>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl pt-[10px] font-bold ">
-            I'm a <span className="text-teal-200">Full Stack Developer.</span>
+            I'm a <span className="text-teal-200">Quality Assurance Engineer.</span>
           </h2>
           <p className="max-w-[800px] pt-4 pb-1">
-            I love exploring and learning new technologies. User experience, and
-            writing clean accessible code, matters to me. Currently, I'm working
-            on building responsive full stack web applications.
+            I enjoy exploring and learning new technologies, with a strong focus on product quality and user experience. 
+            Writing clean, accessible code and building reliable applications matters to me. 
+            I have experience building full stack web applications through personal projects, which helps me bring a deeper understanding of development into my QA work.
           </p>
           <div className="flex flex-wrap">
             <a
