@@ -9,7 +9,7 @@ const projectData = [
     image: img1,
     name: "Phrase Hunter",
     description: `This web app is a phrase-guessing game. Players select letters until they either guess the phrase (win) or make five incorrect guesses (lose).`,
-    demo: true,
+    demo: false,
     demoLink: "https://dougbeckwith.github.io/",
     github: true,
     githubLink: "https://github.com/dougbeckwith/techdegree-project-4",
@@ -52,7 +52,7 @@ const projectData = [
     name: "Golf Stats",
     description: `This is a full-stack web app that allows users to track their golf statistics. It uses a RESTful API to create, read, update, and delete data for each golf club. MongoDB is used to store user data. 
     `,
-    demo: true,
+    demo: false,
     demoLink: "https://amazing-fenglisu-529860.netlify.app/",
     github: true,
     githubLink: "https://github.com/dougbeckwith/golf-app",
