@@ -6,20 +6,16 @@ import {
   FaGitAlt,
   FaHtml5,
   FaCss3Alt,
-  
 } from "react-icons/fa";
 
-import {
-  SiDatadog ,
-  SiPostman,
-  SiPostgresql,
-} from "react-icons/si";
+import { SiDatadog, SiPostman, SiPostgresql } from "react-icons/si";
 
 const About = () => {
   return (
     <div
       name="about"
-      className="dark:text-gray-500 dark:bg-gray-700 w-full bg-gray-100 py-[100px] md:py-[300px] 2xl:py-[400px] text-gray-600">
+      className="dark:text-gray-500 dark:bg-gray-700 w-full bg-gray-100 py-[100px] md:py-[300px] 2xl:py-[400px] text-gray-600"
+    >
       <div className="container w-full h-full px-5 mx-auto flex flex-col justify-center items-center">
         <section className="text-left w-full">
           <h2 className="text-3xl md:text-4xl font-bold inline border-b-4 border-teal-200">
@@ -27,18 +23,26 @@ const About = () => {
           </h2>
           <section className="max-w-[1000px]">
             <p className="text-lg pt-6 pb-2">
-               Quality Assurance Engineer based in BC, Canada.
+              Quality Assurance Engineer based in BC, Canada, with full-stack
+              development experience.
             </p>
             <p className="pt-2 pb-4">
-              My journey into tech started as a hobby, driven by curiosity and a 
-              desire to learn something new. Over time, that interest grew into a 
-              full career transition. I’m currently working as a Quality Assurance Engineer at ChowNow, 
-              where I focus on ensuring product quality and delivering a reliable user experience.
+              My journey into tech started as a hobby, driven by curiosity and a
+              desire to learn something new. Over time, that interest grew into
+              a full career transition. I’m currently a QA Engineer at ChowNow,
+              where I focus on product quality and a reliable user experience.
             </p>
             <p className="pt-2 pb-4">
-              I enjoy continuously learning and improving in my role, as well as through personal projects. 
-              My favorite project so far is the Halo Infinite project below, which I built with another developer. 
-              When I'm not working, you'll usually find me golfing, working out, hiking, swimming, or gaming with friends.
+              Through personal projects, I’ve built full-stack web applications
+              with React, Node.js, Express and SQL. That background shapes how I
+              approach testing end to end and tracking down the root cause of
+              issues.
+            </p>
+            <p className="pt-2 pb-4">
+              I keep learning through my work and side projects. My favourite so
+              far is the Halo Infinite project below, which I built with another
+              developer. When I’m not working, you’ll usually find me golfing,
+              working out, hiking, swimming, or gaming with friends.
             </p>
             <p className="pt-2 pb-2">
               These are some of the technologies I've worked with.
@@ -77,7 +81,7 @@ const About = () => {
                 <p className="pl-2">Postman</p>
               </div>
               <div className="flex items-center">
-                <SiDatadog  size={25} />
+                <SiDatadog size={25} />
                 <p className="pl-2">DataDog</p>
               </div>
             </ul>
