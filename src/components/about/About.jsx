@@ -27,10 +27,11 @@ const About = () => {
               development experience.
             </p>
             <p className="pt-2 pb-4">
-              My journey into tech started as a hobby, driven by curiosity and a
-              desire to learn something new. Over time, that interest grew into
-              a full career transition. I’m currently a QA Engineer at ChowNow,
-              where I focus on product quality and a reliable user experience.
+              Before tech, I worked as a master electrician, estimator and
+              electrical project manager. Tech started as a hobby, driven by
+              curiosity, and grew into a full career transition. I'm currently a
+              QA Engineer at ChowNow, where I focus on product quality and a
+              reliable user experience.
             </p>
             <p className="pt-2 pb-4">
               Through personal projects, I’ve built full-stack web applications
